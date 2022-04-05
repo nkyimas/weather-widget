@@ -1,0 +1,77 @@
+@import 'partials/reset';
+@import 'partials/vars';
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: #2b2b2b;
+  line-height: 1.4;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.widget-weather {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.part-weather-today {
+  padding: 25px;
+  text-align: center;
+}
+
+.part-temp {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--text-grey);
+  display: block;
+}
+
+.part-description {
+  font-weight: 300;
+}
+
+.part-time {
+  font-weight: 300;
+  color: var(--text-grey);
+}
+
+.form-city {
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-grey);
+    border-radius: 5px;
+    text-align: center;
+  }
+}
+
+.part-weather-top {
+  text-align: center;
+}
